@@ -35,5 +35,3 @@ def main(a):
     Adtriangle(a)
 
 main(10)
-
-raw_input("Press the <ENTER> key to continue...")

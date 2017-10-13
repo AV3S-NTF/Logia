@@ -100,5 +100,3 @@ def main():
     pendown()
 
 main()
-
-raw_input("Press the <ENTER> key to continue...")
