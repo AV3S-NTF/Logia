@@ -1,14 +1,14 @@
 from math import*
 
-def main(n):
+def ile(n):
     a = 1 / 3
-    ile = 0
+    il = 0
     while (n != 0):
         if (a > n):
             n = n - (a / 3)
             a = 1 / 3
-            ile = ile + 1
+            il = il + 1
         a = a * 3
-    print(ile)
+    print(il)
 
-main(29)
+ile(64)
