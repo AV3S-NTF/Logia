@@ -114,8 +114,21 @@ def part2():
     bk(LENGTH)
     pendown()
 
-def main(n):
+def flaga(n):
+    if (n < 2):
+        return
+    elif (n > 14):
+        return
     switch = True
+    penup()
+    bk(((5.5 * n) + 0.5) * LENGTH / 2)
+    rt(90)
+    if (n % 2 == 0):
+        fd((4 * n) * LENGTH / 2)
+    else:
+        fd(((4 * n) - 1) * LENGTH / 2)
+    lt(90)
+    pendown()
     
     for i in range(0, n):
         for y in range(0, n - i):
@@ -141,5 +154,14 @@ def main(n):
             switch = False
         else:
             switch = True
+    penup()
+    fd(((5.5 * n) + 0.5) * LENGTH / 2)
+    rt(90)
+    if (n % 2 == 0):
+        fd((4 * n) * LENGTH / 2)
+    else:
+        fd(((4 * n) - 1) * LENGTH / 2)
+    lt(90)
+    pendown()
 
-main(14)
+flaga(8)

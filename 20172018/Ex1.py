@@ -4,7 +4,7 @@ from math import*
 speed(0)
 delay(0)
 
-LENGTH = 10 # 490 / 49 = 10
+LENGTH = 10 #490 / 49 = 10
 
 def part1():
     pencolor("darkred")
@@ -150,7 +150,13 @@ def part2():
     lt(90)
     end_fill()
 
-def main():
+def rama():
+    penup()
+    bk(15 * LENGTH)
+    lt(90)
+    fd(15 * LENGTH)
+    rt(90)
+    pendown()
     for i in range(0, 4):
         for y in range(0, 3):
             part2()
@@ -160,5 +166,11 @@ def main():
         fd(LENGTH)
         part1()
         rt(90)
+    penup()
+    fd(15 * LENGTH)
+    rt(90)
+    fd(15 * LENGTH)
+    lt(90)
+    pendown()
 
-main()
+rama()
