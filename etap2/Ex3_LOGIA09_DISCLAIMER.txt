@@ -1,0 +1,1 @@
+This(the algorythm for checking if a number is prime) is the fastest algorythm I could find, and I DO NOT CLAIM I CAN UNDERSTAND IT. I could(probably) recreate the function given some amount of time, but I DO NOT UNDERSTAND THE MATH.
