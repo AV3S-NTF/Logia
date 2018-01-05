@@ -1,6 +1,6 @@
 # Logia
 
-It's a competition for young programmers and it happens in Poland. [Here's](http://logia.oeiizk.waw.pl/) the link:
+It's a competition for young programmers and it happens in Poland. [Here's](http://logia.oeiizk.waw.pl/) the link.
 
 # Titles
 
