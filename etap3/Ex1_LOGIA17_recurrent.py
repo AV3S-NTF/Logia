@@ -25,4 +25,15 @@ def litera(sentence):
     
     return result
 
-print(litera(['julka','lubi','psy']))
+def testItem(sentence, eResult):
+    result = litera(sentence)
+    if(result == eResult):
+        print("OK")
+    else:
+        print("BUG", result, eResult)
+
+def test():
+    testItem(['julka','lubi','psy'], ['l','u'])
+    testItem(['ala','ma','kota'], 'a')
+
+test()
